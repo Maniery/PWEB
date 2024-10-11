@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>   
+
+   <head>
+
+      <link href="estilo.css" rel="stylesheet">
+      <title>Receita 2b</title>
+
+   </head>
+
+
+   <body>
+
+
+      <p class="verso">Já não tenho meus dentes natuarais</p>
+
+      <p class="verso">Que comi rapadura com biscoito</p>
+
+      <p class="verso">Cadê minha pressão 12 por 8</p>
+
+      <p class="verso">Que no peito não tá batendo mais</p>
+
+      <p class="verso">Dou um passo pra frente e dois pra trás</p>
+
+      <p class="verso">E assim mesmo com pouca habilidade</p>
+
+      <p class="verso">Que as feridas deixadas pela idade</p>
+
+      <p class="verso">Não se curam com pano de compressa</p>
+
+      <p class="mote">Vi a vida passando tão depressa</p>
+
+      <p class="mote">Que nem lembro que tive mocidade</p>
+
+      <img class="poeta" src="joao.jpg" alt="Avatar" style="width:200px">
+
+      <p><b><a href="https://www.google.com/search?q=Jo%C3%A3o+Paraibano&client=firefox-b-d&sca_esv=b95711e1819f9935&sca_upv=1&ei=YjP2ZpbVBpbR1sQPlPzj8AY&ved=0ahUKEwiWjq_Mo-KIAxWWqJUCHRT-GG4Q4dUDCA8&uact=5&oq=Jo%C3%A3o+Paraibano&gs_lp=Egxnd3Mtd2l6LXNlcnAiD0pvw6NvIFBhcmFpYmFubzIKEAAYgAQYQxiKBTIFEAAYgAQyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiUBVDCA1jCA3ABeAGQAQCYAZcBoAGXAaoBAzAuMbgBA8gBAPgBAZgCAqACxwHCAgoQABiwAxjWBBhHmAMAiAYBkAYFkgcDMS4xoAf6Bg&sclient=gws-wiz-serp" target="_blank">João Paraibano</a></b></p>
+
+
+
+      <div class="row">
+         <div class="column">
+             <h1>Bebidas</h1>
+             <table id="customers">
+                 <tr>
+                     <th>Nome</th>
+                     <th>Ingredientes</th>
+                     <th>Preço Por Dose</th>
+                 </tr>
+                 <tr>
+                     <td><a href="https://static.itdg.com.br/images/1200-675/82a28aad77a013831d5c0ca43544eedc/319875-original.jpg" target="_blank">Caipirinha</a></td>
+                     <td>Cachaça, limão, açúcar, gelo</td>
+                     <td>R$ 10,00</td>
+                 </tr>
+                 <tr>
+                     <td><a href="https://static.itdg.com.br/images/1200-675/40fccfd007181352e98024737f169800/148293-original.jpg" target="_blank">Batida de Coco</a></td>
+                     <td>Cachaça, leite de coco, leite condensado, gelo</td>
+                     <td>R$ 15,00</td>
+                 </tr>
+                 <tr>
+                     <td><a href="https://www.cnnbrasil.com.br/viagemegastronomia/wp-content/uploads/sites/5/2023/05/rabo-de-galo.jpg?w=1200&h=900&crop=1" target="_blank">Rabo-de-galo</a></td>
+                     <td>Cachaça, vermute</td>
+                     <td>R$ 15,00</td>
+                 </tr>
+                 <tr>
+                     <td><a href="https://nreceitas.com/wp-content/uploads/2023/12/aperol-spritz.jpg" target="_blank">Aperol Spritz</a></td>
+                     <td>Aperol, espumante, água com gás, laranja</td>
+                     <td>R$ 25,00</td>
+                 </tr>
+                 <tr>
+                     <td><a href="https://www.lojamuseudagula.com.br/media/upload/ckeditor/2020/05/15/2020-05-15-post-mdg-virt-artesanal.jpg" target="_blank">Cerveja artesanal</a></td>
+                     <td>Malte, lúpulo, água, fermento</td>
+                 </tr>
+             </table>
+         </div>
+     </div>
+     
+     
+
+   </body>   
+
+</html> 
