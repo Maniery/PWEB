@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Poesia e Tabelas</title>
+      <style>
+         .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         }
+         .table-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 800px;
+            margin-top: 20px;
+         }
+         table {
+            width: 45%;
+            border-collapse: collapse;
+            font-size: 18px;
+         }
+         table, th, td {
+            border: 1px solid black;
+         }
+         th, td {
+            padding: 8px;
+            text-align: left;
+         }
+         th {
+            background-color: #f2f2f2;
+         }
+         /* Linhas de Bebidas */
+         tr.coca-cola { background-color: #8B4513; } /* Marrom */
+         tr.cha { background-color: #228B22; } /* Verde */
+         tr.suco { background-color: #FFA500; } /* Laranja */
+
+         /* Linhas de Comidas */
+         tr.salgado { background-color: #FFFF00; } /* Amarelo */
+         tr.bolo { background-color: #FFC0CB; } /* Rosa */
+         tr.biscoito {
+            background-color: #FFFF00; /* Amarelo */
+            background-image: radial-gradient(brown 15%, transparent 20%);
+            background-size: 20px 20px; /* Tamanho das bolinhas */
+         }
+         img {
+            width: 50px;
+            height: auto;
+         }
+         /* Estilo para a imagem central */
+         .center-image {
+            width: 600px; /* Aumentando o tamanho da imagem central */
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <!-- Imagem central maior -->
+         <img src="https://reidossalgados.com/wp-content/uploads/2024/02/IMG_4526-15645.jpg" class="center-image"/>
+
+         <!-- Tabelas lado a lado -->
+         <div class="table-container">
+            <!-- Tabela de Bebidas -->
+            <table>
+               <tr>
+                  <th>Bebida</th>
+                  <th>Preço</th>
+               </tr>
+               <tr class="coca-cola"> <!-- Marrom para Coca-Cola -->
+                  <td>Coca-Cola</td>
+                  <td>R$ 5,50</td>
+               </tr>
+               <tr class="cha"> <!-- Verde para Chá -->
+                  <td>Chá</td>
+                  <td>R$ 4,00</td>
+               </tr>
+               <tr class="suco"> <!-- Laranja para Suco -->
+                  <td>Suco</td>
+                  <td>R$ 6,00</td>
+               </tr>
+            </table>
+
+            <!-- Tabela de Comidas -->
+            <table>
+               <tr>
+                  <th>Comida</th>
+                  <th>Preço</th>
+               </tr>
+               <tr class="salgado"> <!-- Amarelo para Salgado -->
+                  <td><img src="https://i.pinimg.com/originals/d6/1b/f9/d61bf95755e08ee9e10af273669df608.jpg" alt="Imagine um pastel"/> Salgado</td>
+                  <td>R$ 6,00</td>
+               </tr>
+               <tr class="bolo"> <!-- Rosa para Bolo -->
+                  <td><img src="https://www.receiteria.com.br/wp-content/uploads/bolo-de-chocolate.jpg" alt="Bolo"/> Bolo</td>
+                  <td>R$ 7,00</td>
+               </tr>
+               <tr class="biscoito"> <!-- Amarelo com bolinhas para Biscoito -->
+                  <td><img src="https://e7.pngegg.com/pngimages/900/600/png-clipart-brown-cookies-with-chocolates-cookie-biscuit-flavor-chocolate-biscuit-baked-goods-food-thumbnail.png" alt="Biscoito"/> Biscoito</td>
+                  <td>R$ 3,50</td>
+               </tr>
+            </table>
+         </div>
+      </div>
+
+      <!-- Link para outra página -->
+      <p>
+         Veja mais poesias <a href="https://sigaa.ufrn.br" target="_blank">aqui</a>.
+      </p>
+   </body>     
+</html>
