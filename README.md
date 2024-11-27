@@ -1,1 +1,1 @@
-Exercicios da receita 1, 2 e 2B
+Exercicios da receita 1 à 7
